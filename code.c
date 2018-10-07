@@ -8,7 +8,7 @@
 
 typedef unsigned long bigInt;
 #define LEN 64 // number of bits
-#define NMAX 49 // number of elements in array
+#define NMAX 64 // number of elements in array
 static const int MAXSIZ=LEN*NMAX;
 static const bigInt MSB=0x8000000000000000; //2^64 in hex
 const bigInt one=1;
